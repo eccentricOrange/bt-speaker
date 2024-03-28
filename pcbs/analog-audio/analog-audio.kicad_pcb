@@ -362,7 +362,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "D:/anujv/Documents/tech-projects/bt-speaker/pcbs/3d-libs/screw-terminal-block-5mm-2.snapshot.17/Screw Terminal Block 5mm 2-way.step"
+		(model "../3d-libs/screw-terminal-block-5mm-2.snapshot.17/Screw Terminal Block 5mm 2-way.step"
 			(offset
 				(xyz 2.5 0 0)
 			)
@@ -2298,7 +2298,7 @@
 			(uuid "456fdbc3-7a98-4421-a644-0020b2c37b33")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 270)
+			(at 0 2.54 -90)
 			(layer "F.Fab")
 			(uuid "47c2ee2e-ce99-48e0-a077-f74087ecddf4")
 			(effects
@@ -3695,7 +3695,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "D:/anujv/Documents/tech-projects/bt-speaker/pcbs/3d-libs/screw-terminal-block-5mm-2.snapshot.17/Screw Terminal Block 5mm 2-way.step"
+		(model "../3d-libs/screw-terminal-block-5mm-2.snapshot.17/Screw Terminal Block 5mm 2-way.step"
 			(offset
 				(xyz 2.5 0 0)
 			)
@@ -4516,7 +4516,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "D:/anujv/Documents/tech-projects/bt-speaker/pcbs/3d-libs/screw-terminal-block-5mm-2.snapshot.17/Screw Terminal Block 5mm 3-way.step"
+		(model "../3d-libs/screw-terminal-block-5mm-2.snapshot.17/Screw Terminal Block 5mm 3-way.step"
 			(offset
 				(xyz 5 0 0)
 			)
