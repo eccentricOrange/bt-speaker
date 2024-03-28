@@ -1,0 +1,10 @@
+*backups/
+*auto*
+*.lck
+*cache
+*.zip
+gerber/
+*pdf
+*.log
+*.raw
+*.plt
