@@ -2560,6 +2560,12 @@
 		(uuid "1f656a94-5309-468d-98b3-9ec06577df3e")
 	)
 	(junction
+		(at 231.14 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "261fd1ef-24eb-47fa-903d-c9c3ceec287a")
+	)
+	(junction
 		(at 31.75 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2576,12 +2582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cbd2fb0-1ea0-4c60-9250-7ed9c6f628b9")
-	)
-	(junction
-		(at 157.48 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fbced45-4789-4092-b1f9-f07799485b4b")
 	)
 	(junction
 		(at 170.18 39.37)
@@ -2710,7 +2710,7 @@
 		(uuid "8ebfec5f-7b35-47f1-842d-e36642cd2cb7")
 	)
 	(junction
-		(at 59.69 166.37)
+		(at 59.69 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d4670b-c5e2-4138-8e8d-fe82ad8abd92")
@@ -2728,7 +2728,13 @@
 		(uuid "9b8b6a05-82a4-40e9-8299-baf26292ccc2")
 	)
 	(junction
-		(at 104.14 166.37)
+		(at 157.48 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad26cdb-3e39-489f-ba6c-cfeec479ddf9")
+	)
+	(junction
+		(at 104.14 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbac704e-ca9c-425b-b15b-994fc53dcb2f")
@@ -2740,7 +2746,7 @@
 		(uuid "bce3a91c-5a43-4992-bdb4-8a3c45e5ff9d")
 	)
 	(junction
-		(at 127 166.37)
+		(at 127 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd5a6931-dfd9-4196-af6b-b501e7c2f450")
@@ -2788,19 +2794,13 @@
 		(uuid "db27f707-f9f0-4bfc-95eb-3406346ce522")
 	)
 	(junction
-		(at 231.14 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1cf7a91-0382-4076-9a48-8aaa94b14443")
-	)
-	(junction
 		(at 243.84 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe5cb04-f338-47f0-86d2-2b5eb62aeaa8")
 	)
 	(junction
-		(at 36.83 166.37)
+		(at 36.83 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ee5eee-321b-4508-abf4-d4a5cc162b5a")
@@ -2903,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 177.8) (xy 104.14 166.37)
+			(xy 104.14 177.8) (xy 104.14 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2954,6 +2954,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 46.99) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137016fe-0ad8-4925-b186-ba54cb68a03f")
+	)
+	(wire
+		(pts
 			(xy 243.84 93.98) (xy 243.84 97.79)
 		)
 		(stroke
@@ -2961,16 +2971,6 @@
 			(type default)
 		)
 		(uuid "138faf44-788b-4377-a61c-bc4fdd45865c")
-	)
-	(wire
-		(pts
-			(xy 157.48 46.99) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d6b0cd-c37c-4910-bda3-c5de27102883")
 	)
 	(wire
 		(pts
@@ -3064,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 166.37) (xy 59.69 177.8)
+			(xy 59.69 165.1) (xy 59.69 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 156.21) (xy 36.83 166.37)
+			(xy 36.83 156.21) (xy 36.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3498,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 166.37) (xy 115.57 166.37)
+			(xy 104.14 165.1) (xy 115.57 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3648,23 +3648,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 166.37) (xy 59.69 166.37)
+			(xy 50.8 165.1) (xy 59.69 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7511af4c-b092-42e3-a759-f8294141d3df")
-	)
-	(wire
-		(pts
-			(xy 157.48 60.96) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7609dc59-8a6a-47bc-bf44-847efef8272a")
 	)
 	(wire
 		(pts
@@ -3809,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 166.37) (xy 127 166.37)
+			(xy 118.11 165.1) (xy 127 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3836,16 +3826,6 @@
 			(type default)
 		)
 		(uuid "866eb0e8-c1b2-41ff-b58a-76d01e4104f2")
-	)
-	(wire
-		(pts
-			(xy 153.67 60.96) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86ed88a0-7b0f-4475-9dfc-cb5cddf0f3a4")
 	)
 	(wire
 		(pts
@@ -3919,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 156.21) (xy 127 166.37)
+			(xy 127 156.21) (xy 127 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3979,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 177.8) (xy 36.83 166.37)
+			(xy 36.83 177.8) (xy 36.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +4030,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 166.37) (xy 127 177.8)
+			(xy 227.33 60.96) (xy 231.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a648685e-a81f-48c1-b63c-997621754b4c")
+	)
+	(wire
+		(pts
+			(xy 127 165.1) (xy 127 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4091,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 156.21) (xy 59.69 166.37)
+			(xy 59.69 156.21) (xy 59.69 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4211,7 +4201,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 156.21) (xy 104.14 166.37)
+			(xy 104.14 156.21) (xy 104.14 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4281,6 +4271,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 60.96) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78d9b4e-3f69-4dde-a2a6-4631dc82e752")
+	)
+	(wire
+		(pts
 			(xy 52.07 57.15) (xy 52.07 60.96)
 		)
 		(stroke
@@ -4318,6 +4318,16 @@
 			(type default)
 		)
 		(uuid "ca69dd51-ed99-4923-9d5b-dea0c91aed09")
+	)
+	(wire
+		(pts
+			(xy 153.67 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb03a8b4-0052-4856-b26e-f758eb6138f1")
 	)
 	(wire
 		(pts
@@ -4388,16 +4398,6 @@
 			(type default)
 		)
 		(uuid "d4bf26df-a8d7-4ba3-9a4f-421422737614")
-	)
-	(wire
-		(pts
-			(xy 231.14 60.96) (xy 231.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5b56d16-b22e-466d-97db-b567db070eaa")
 	)
 	(wire
 		(pts
@@ -4511,16 +4511,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 60.96) (xy 231.14 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea83ce68-be92-4b61-a3a3-df1d718ecc48")
-	)
-	(wire
-		(pts
 			(xy 119.38 78.74) (xy 119.38 81.28)
 		)
 		(stroke
@@ -4611,7 +4601,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 166.37) (xy 48.26 166.37)
+			(xy 36.83 165.1) (xy 48.26 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4678,6 +4668,16 @@
 			(type default)
 		)
 		(uuid "fd31bf20-a535-4c00-a2a5-6424c8bdccef")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe08e8e8-5f99-4465-a296-dec663666a5e")
 	)
 	(wire
 		(pts
@@ -5626,127 +5626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM741")
-		(at 116.84 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "103c55c4-4b31-4c67-b559-f405dc77dc3c")
-		(property "Reference" "U2"
-			(at 121.412 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM741"
-			(at 121.412 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 118.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "../../simulations/full/libraries/LM741.sub"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "uA741"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "2=2 3=1 4=4 6=5 7=3"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0d8e59cf-17e1-4919-95e3-577fb15b3c5f")
-		)
-		(pin "4"
-			(uuid "04867028-ff69-42ef-bfc9-73b1b994c931")
-		)
-		(pin "1"
-			(uuid "f5fd00fe-a6a1-43e1-8846-2e5de6287c99")
-		)
-		(pin "8"
-			(uuid "f7557bce-3b02-4911-a7e4-5474319cb96c")
-		)
-		(pin "7"
-			(uuid "84848eaf-f677-4827-9db5-74f157b95b6a")
-		)
-		(pin "2"
-			(uuid "355fa72a-516e-42aa-9b5f-c954b6077df9")
-		)
-		(pin "3"
-			(uuid "f123e17b-7806-4e13-9ddb-2b261d5fb28e")
-		)
-		(pin "6"
-			(uuid "822d1fa4-808a-4b85-9a07-a234aff477ba")
-		)
-		(instances
-			(project "analog-audio"
-				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 100.33 0)
 		(unit 1)
@@ -5906,7 +5785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 262.89 82.55 0)
 			(effects
 				(font
@@ -6373,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "r=4"
+		(property "Sim.Params" "r=8R"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -6479,7 +6358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "r=4"
+		(property "Sim.Params" "r=8R"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -6498,10 +6377,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d0064c1c-98d4-46ed-89b3-2b49ac99734a")
+			(uuid "d0064c1c-98d4-46ed-89b3-2b49ac99734b")
 		)
 		(pin "1"
-			(uuid "f1bda107-573a-48cb-9b08-3864436f6c62")
+			(uuid "f1bda107-573a-48cb-9b08-3864436f6c63")
 		)
 		(instances
 			(project "analog-audio"
@@ -7132,7 +7011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 167.64 74.93 0)
 			(effects
 				(font
@@ -7253,7 +7132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 241.3 46.99 0)
 			(effects
 				(font
@@ -8291,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 241.3 74.93 0)
 			(effects
 				(font
@@ -8687,7 +8566,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 50.8 171.45 270)
+		(at 50.8 170.18 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8696,7 +8575,7 @@
 		(fields_autoplaced yes)
 		(uuid "941edfbe-f5ec-4ba6-9d25-c7e72846e3be")
 		(property "Reference" "J3"
-			(at 54.61 170.1799 90)
+			(at 54.61 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8584,7 @@
 			)
 		)
 		(property "Value" "VOL"
-			(at 54.61 172.7199 90)
+			(at 54.61 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8593,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 50.8 171.45 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,7 +8602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 171.45 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +8611,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 171.45 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8741,7 +8620,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 50.8 171.45 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8629,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 50.8 171.45 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8638,7 @@
 			)
 		)
 		(property "Sim.Params" "r=10k"
-			(at 50.8 171.45 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +8887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 189.23 39.37 0)
 			(effects
 				(font
@@ -9043,7 +8922,6 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "996f306b-78b6-4b76-80d0-69750d331826")
 		(property "Reference" "V_PWR1"
 			(at 107.95 27.8101 0)
@@ -9061,6 +8939,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9118,13 +8997,12 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "ampl=1 f=1k"
-			(at 102.87 29.21 0)
+		(property "Sim.Params" "dc=0 ampl=1 f=1k td=0 theta=0 phase=0 ac=1"
+			(at 113.538 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9860,6 +9738,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM741")
+		(at 116.84 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b11c9d6e-96af-4f35-bfd3-5b5aeba94539")
+		(property "Reference" "U2"
+			(at 121.412 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM741"
+			(at 121.412 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "../../simulations/full/libraries/LM741.lib"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM741"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "2=2 3=1 4=50 6=28 7=99"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3bcefe56-0b4a-407a-a386-bd02c1433546")
+		)
+		(pin "4"
+			(uuid "74c06dcd-75dd-4ad6-a0e5-86d238d9f17f")
+		)
+		(pin "1"
+			(uuid "a2ce5804-9835-4a97-bd64-ffba434f05b5")
+		)
+		(pin "8"
+			(uuid "2d8c230a-c7bc-409e-aa78-19417e6f7461")
+		)
+		(pin "7"
+			(uuid "de115ec0-abf8-4245-91ed-0df4bd858c7e")
+		)
+		(pin "2"
+			(uuid "dfbfc43d-21c0-45dd-8411-099e5e833738")
+		)
+		(pin "3"
+			(uuid "60b0b777-1806-4d55-8fb1-6a59d472ddc1")
+		)
+		(pin "6"
+			(uuid "ffec9d0a-8495-41c2-ad44-f4405e9317e1")
+		)
+		(instances
+			(project "analog-audio"
+				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 231.14 90.17 0)
 		(unit 1)
@@ -10453,7 +10452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 189.23 82.55 0)
 			(effects
 				(font
@@ -10644,7 +10643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 167.64 46.99 0)
 			(effects
 				(font
@@ -10872,7 +10871,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 171.45 270)
+		(at 118.11 170.18 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10881,7 +10880,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcddedfb-0901-41e5-9861-59700f29ea7b")
 		(property "Reference" "J4"
-			(at 120.65 170.1799 90)
+			(at 120.65 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10889,7 @@
 			)
 		)
 		(property "Value" "VOL"
-			(at 120.65 172.7199 90)
+			(at 120.65 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10898,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 118.11 171.45 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 171.45 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10916,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 171.45 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +10925,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 118.11 171.45 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +10934,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 118.11 171.45 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +10943,7 @@
 			)
 		)
 		(property "Sim.Params" "r=10k"
-			(at 118.11 171.45 0)
+			(at 118.11 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +11399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 262.89 39.37 0)
 			(effects
 				(font
