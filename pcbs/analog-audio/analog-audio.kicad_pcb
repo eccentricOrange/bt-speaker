@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerber/")
+			(outputdirectory "outputs/gerber/")
 		)
 	)
 	(net 0 "")
@@ -4368,8 +4368,8 @@
 				)
 			)
 		)
-		(property "Value" "VOL"
-			(at -5.75 1.75 -90)
+		(property "Value" "VOL-B"
+			(at -5.75 1.75 270)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "2ba324da-4329-4bcf-9cfd-b4999e8d1ab5")
@@ -8774,8 +8774,8 @@
 				)
 			)
 		)
-		(property "Value" "VOL"
-			(at 8.25 1.75 -90)
+		(property "Value" "VOL-T"
+			(at 8.25 1.75 270)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "7289c27c-2606-4f0b-9c60-1297ad858329")

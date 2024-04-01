@@ -465,10 +465,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "outputs/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "outputs/analog-audio.step",
       "svg": "",
       "vrml": ""
     },
