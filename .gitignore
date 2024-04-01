@@ -9,3 +9,4 @@ gerber/
 *.raw
 *.plt
 quotes/
+outputs/
