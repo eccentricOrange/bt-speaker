@@ -1450,6 +1450,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:0"
 			(power)
 			(pin_numbers hide)
@@ -2590,6 +2692,12 @@
 		(uuid "31f4f030-4053-4027-822c-a0b057f9b1cf")
 	)
 	(junction
+		(at 161.29 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b2f0c9-612c-4b9a-96a5-7d98f1bd4c13")
+	)
+	(junction
 		(at 243.84 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2624,6 +2732,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "457bc949-9135-4ec3-b248-6c5a3cec8653")
+	)
+	(junction
+		(at 161.29 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bd8157f-1c67-48d7-839a-6b2b5ef94c4c")
 	)
 	(junction
 		(at 231.14 46.99)
@@ -2914,6 +3028,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 148.59) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba8ebb5-ad4c-4f67-9528-78c284312683")
+	)
+	(wire
+		(pts
 			(xy 170.18 52.07) (xy 170.18 58.42)
 		)
 		(stroke
@@ -3024,6 +3148,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 138.43) (xy 170.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a996851-cddf-43bb-9aa7-869a5bbaf414")
+	)
+	(wire
+		(pts
 			(xy 243.84 52.07) (xy 243.84 58.42)
 		)
 		(stroke
@@ -3051,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "1c537577-0055-4798-b8be-ae932eede9a3")
+	)
+	(wire
+		(pts
+			(xy 161.29 138.43) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d99f794-efac-4ef7-aeb9-4124142bae68")
 	)
 	(wire
 		(pts
@@ -3719,6 +3863,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 153.67) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5dd755-cb4c-42f6-9b19-b09eff22781d")
+	)
+	(wire
+		(pts
 			(xy 31.75 60.96) (xy 36.83 60.96)
 		)
 		(stroke
@@ -3899,6 +4053,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 148.59) (xy 170.18 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f543af2-5402-4346-95c1-a626297d0118")
+	)
+	(wire
+		(pts
 			(xy 127 156.21) (xy 127 165.1)
 		)
 		(stroke
@@ -3977,6 +4141,16 @@
 			(type default)
 		)
 		(uuid "9a36c314-25e1-4622-a7a9-e6d00930dc07")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac0bb8b-c9e7-4224-b62b-9353a3afd4ad")
 	)
 	(wire
 		(pts
@@ -4867,7 +5041,7 @@
 	)
 	(text "SPICE SIMULATION\nThese components are not included\nin the PCB. For testing only."
 		(exclude_from_sim no)
-		(at 91.44 104.394 0)
+		(at 90.424 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5428,6 +5602,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 227.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 227.33 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,6 +6367,73 @@
 			(project "analog-audio"
 				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 170.18 135.89 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f6b74f-e56e-47bc-85ed-b7c9fcbd92b8")
+		(property "Reference" "H2"
+			(at 172.72 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 172.72 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfea5db3-8390-4aed-8525-1a30659497e4")
+		)
+		(instances
+			(project "analog-audio"
+				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8498,6 +8757,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d28d63f-7cf4-4e60-b7d1-a36cf1d9988c")
+		(property "Reference" "#PWR027"
+			(at 161.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c33e7ed-8b55-43c7-9c13-f8c7e0e6109b")
+		)
+		(instances
+			(project "analog-audio"
+				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 30.48 138.43 90)
 		(unit 1)
@@ -8722,6 +9047,73 @@
 			(project "analog-audio"
 				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 170.18 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ae2e95-1096-4f85-85a5-e2486dfd3174")
+		(property "Reference" "H1"
+			(at 172.72 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 172.72 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e1c0a46-2e95-46f5-b960-5153fd74e328")
+		)
+		(instances
+			(project "analog-audio"
+				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8997,7 +9389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1 f=1k td=0 theta=0 phase=0 ac=1"
+		(property "Sim.Params" "dc=0 ampl=1V f=1kHz td=0 theta=0 phase=0 ac=1V"
 			(at 113.538 15.748 0)
 			(effects
 				(font
@@ -9257,6 +9649,73 @@
 			(project "analog-audio"
 				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 170.18 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29276e8-5041-4194-bbab-15318961c2da")
+		(property "Reference" "H3"
+			(at 172.72 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 172.72 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfea5db3-8390-4aed-8525-1a30659497e4")
+		)
+		(instances
+			(project "analog-audio"
+				(path "/4602718e-6d61-4ec4-93a3-28217c24c351"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11147,6 +11606,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 116.84 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 294.64 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 294.64 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
