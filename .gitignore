@@ -10,3 +10,4 @@ gerber/
 *.plt
 quotes/
 outputs/
+draw-io-source/
