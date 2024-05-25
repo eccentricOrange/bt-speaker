@@ -8900,7 +8900,7 @@
 		(fields_autoplaced yes)
 		(uuid "941edfbe-f5ec-4ba6-9d25-c7e72846e3be")
 		(property "Reference" "J3"
-			(at 54.61 168.9099 90)
+			(at 53.34 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,8 +8908,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VOL"
-			(at 54.61 171.4499 90)
+		(property "Value" "VOL-T"
+			(at 53.34 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400R"
+		(property "Value" "1k"
 			(at 172.72 91.4399 0)
 			(effects
 				(font
@@ -11347,7 +11347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VOL"
+		(property "Value" "VOL-T"
 			(at 120.65 171.4499 90)
 			(effects
 				(font
@@ -11510,7 +11510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400R"
+		(property "Value" "1k"
 			(at 246.38 33.0199 0)
 			(effects
 				(font
@@ -11665,7 +11665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400R"
+		(property "Value" "1k"
 			(at 246.38 91.4399 0)
 			(effects
 				(font
@@ -11922,7 +11922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "400R"
+		(property "Value" "1k"
 			(at 172.72 33.0199 0)
 			(effects
 				(font
