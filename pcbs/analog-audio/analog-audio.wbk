@@ -4,13 +4,17 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 100000 1 10Meg",
+        ".ac dec 100 1 20k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
         ".probe allp"
       ],
       "dottedSecondary": true,
+      "legend": {
+        "x": 1042,
+        "y": 596
+      },
       "margins": {
         "bottom": 45,
         "left": 70,
@@ -45,22 +49,52 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10u 10m",
+        ".tran 10u 11m 10m 10u uic",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
         ".probe allp"
       ],
       "dottedSecondary": true,
+      "legend": {
+        "x": 1031,
+        "y": 72
+      },
       "margins": {
         "bottom": 45,
         "left": 70,
-        "right": 70,
+        "right": 140,
         "top": 30
       },
       "measurements": [],
       "showGrid": true,
-      "traces": []
+      "traces": [
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(+12V)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(-12V)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(VBASS)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(VTREBLE)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(Vs)",
+          "trace_type": 257
+        }
+      ]
     }
   ],
   "user_defined_signals": [],

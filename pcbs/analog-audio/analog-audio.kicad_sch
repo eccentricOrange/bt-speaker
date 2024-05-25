@@ -6617,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "r=8R"
+		(property "Sim.Params" "r=4R"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -7126,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Value" "820R"
+		(property "Value" "750R"
 			(at 99.06 145.034 90)
 			(effects
 				(font
@@ -7950,7 +7950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "0.5R"
 			(at 194.31 55.8799 0)
 			(effects
 				(font
@@ -8839,7 +8839,7 @@
 				)
 			)
 		)
-		(property "Value" "820R"
+		(property "Value" "750R"
 			(at 30.48 145.034 90)
 			(effects
 				(font
@@ -9389,7 +9389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1V f=1kHz td=0 theta=0 phase=0 ac=1V"
+		(property "Sim.Params" "dc=0 ampl=1V f=1326Hz td=0 theta=0 phase=0 ac=1V"
 			(at 113.538 15.748 0)
 			(effects
 				(font
@@ -9710,7 +9710,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfea5db3-8390-4aed-8525-1a30659497e4")
+			(uuid "cfea5db3-8390-4aed-8525-1a30659497e5")
 		)
 		(instances
 			(project "analog-audio"
@@ -10145,7 +10145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "0.5R"
 			(at 194.31 68.5799 0)
 			(effects
 				(font
