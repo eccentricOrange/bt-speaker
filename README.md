@@ -30,6 +30,10 @@ The next stage is a power amplifier, which is a simple class AB amplifier, that 
 ### Power supply
 The PCB takes a single 24VDC 1A barrel jack input, and divides the voltage into 12VDC and -12VDC using a simple voltage divider.
 
+### Result
+The final assembled two-way speaker system with custom PCB is shown below
+![bode](images/FinalProj.png)
+
 ## Future work
 *   Miniaturize the PCB, using at least SMD components, if not a pre-made amplifier IC.
 *   Understand, measure, and reduce the signal-to-noise ratio.
