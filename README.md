@@ -37,4 +37,4 @@ The PCB takes a single 24VDC 1A barrel jack input, and divides the voltage into 
 *   Add Bluetooth connectivity (ideally BLE), using a microcontroller.
     *   Ideally, use custom firmware and design a custom antenna on the PCB.
     *   Alternatively, use an ESP32 module with a pre-made antenna.
-*   Use buttons for power on/off, volume control, and Bluetooth pairing.
+*   Use buttons for power ON/OFF, volume control, and Bluetooth pairing.
