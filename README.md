@@ -32,6 +32,7 @@ The PCB takes a single 24VDC 1A barrel jack input, and divides the voltage into 
 
 ### Result
 The final assembled two-way speaker system with custom PCB is shown below
+
 ![bode](images/FinalProj.png)
 
 ## Future work
